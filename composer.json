@@ -1,0 +1,10 @@
+{
+    "name": "netresearch/nr-pagetree",
+    "type": "typo3-cms-extension",
+    "description": "Provides extended functionality for the pagetree, such as showing non page records and wiring them to custom pages",
+    "homepage": "http://www.netresearch.de/",
+    "version": "0.0.1-dev",
+    "require": {
+        "typo3/cms": "6.*"
+    }
+}
