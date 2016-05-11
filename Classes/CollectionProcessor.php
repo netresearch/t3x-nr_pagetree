@@ -104,6 +104,7 @@ class CollectionProcessor implements \TYPO3\CMS\Backend\Tree\Pagetree\Collection
             $subNode->setRecord($record);
             $subNode->setType($table);
             $subNode->setId($record['uid']);
+            $subNode->setQTip('id='.$record['uid']);
             $subNode->setWorkspaceId($record['_ORIG_uid'] ?: $record['uid']);
 
             $subNode->setText(htmlspecialchars($record[$nameField]), $nameField);
