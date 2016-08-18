@@ -4,12 +4,11 @@
  *
  * PHP Version 5
  *
- * @category   Netresearch
- * @package    ?
- * @subpackage ?
- * @author     Christian Opitz <christian.opitz@netresearch.de>
- * @license    http://www.netresearch.de Netresearch Copyright
- * @link       http://www.netresearch.de
+ * @category TYPO3
+ * @package  Nr_Pagetree
+ * @author   Christian Opitz <christian.opitz@netresearch.de>
+ * @license  http://www.netresearch.de Netresearch Copyright
+ * @link     http://www.netresearch.de
  */
 
 namespace Netresearch\NrPagetree;
@@ -22,14 +21,13 @@ use TYPO3\CMS\Core\Tree\TableConfiguration\DatabaseTreeDataProvider;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /**
+ * CollectionProcessor class
  *
- *
- * @category   Netresearch
- * @package    ?
- * @subpackage ?
- * @author     Christian Opitz <christian.opitz@netresearch.de>
- * @license    http://www.netresearch.de Netresearch Copyright
- * @link       http://www.netresearch.de
+ * @category TYPO3
+ * @package  Nr_Pagetree
+ * @author   Christian Opitz <christian.opitz@netresearch.de>
+ * @license  http://www.netresearch.de Netresearch Copyright
+ * @link     http://www.netresearch.de
  */
 class CollectionProcessor implements \TYPO3\CMS\Backend\Tree\Pagetree\CollectionProcessorInterface
 {
@@ -46,6 +44,7 @@ class CollectionProcessor implements \TYPO3\CMS\Backend\Tree\Pagetree\Collection
      * @param integer                                                 $mountPoint
      * @param integer                                                 $level
      * @param \TYPO3\CMS\Backend\Tree\Pagetree\PagetreeNodeCollection $nodeCollection
+     *
      * @return void
      */
     public function postProcessGetNodes($node, $mountPoint, $level, $nodeCollection)
@@ -80,9 +79,9 @@ class CollectionProcessor implements \TYPO3\CMS\Backend\Tree\Pagetree\Collection
     /**
      *
      * @param \TYPO3\CMS\Backend\Tree\Pagetree\PagetreeNodeCollection $nodeCollection
-     * @param $table
-     * @param $where
-     * @param $tableConfigurations
+     * @param                                                         $table
+     * @param                                                         $where
+     * @param                                                         $tableConfigurations
      *
      * @return void
      */
@@ -147,6 +146,7 @@ class CollectionProcessor implements \TYPO3\CMS\Backend\Tree\Pagetree\Collection
      * @param string                                                  $searchFilter
      * @param integer                                                 $mountPoint
      * @param \TYPO3\CMS\Backend\Tree\Pagetree\PagetreeNodeCollection $nodeCollection
+     *
      * @return void
      */
     public function postProcessFilteredNodes($node, $searchFilter, $mountPoint, $nodeCollection)
@@ -159,6 +159,7 @@ class CollectionProcessor implements \TYPO3\CMS\Backend\Tree\Pagetree\Collection
      *
      * @param string                                                  $searchFilter
      * @param \TYPO3\CMS\Backend\Tree\Pagetree\PagetreeNodeCollection $nodeCollection
+     *
      * @return void
      */
     public function postProcessGetTreeMounts($searchFilter, $nodeCollection)

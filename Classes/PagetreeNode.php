@@ -4,25 +4,23 @@
  *
  * PHP Version 5
  *
- * @category   Netresearch
- * @package    ?
- * @subpackage ?
- * @author     Christian Opitz <christian.opitz@netresearch.de>
- * @license    http://www.netresearch.de Netresearch Copyright
- * @link       http://www.netresearch.de
+ * @category TYPO3
+ * @package  Nr_Pagetree
+ * @author   Christian Opitz <christian.opitz@netresearch.de>
+ * @license  http://www.netresearch.de Netresearch Copyright
+ * @link     http://www.netresearch.de
  */
 
 namespace Netresearch\NrPagetree;
 
 /**
+ * PagetreeNode class
  *
- *
- * @category   Netresearch
- * @package    ?
- * @subpackage ?
- * @author     Christian Opitz <christian.opitz@netresearch.de>
- * @license    http://www.netresearch.de Netresearch Copyright
- * @link       http://www.netresearch.de
+ * @category TYPO3
+ * @package  Nr_Pagetree
+ * @author   Christian Opitz <christian.opitz@netresearch.de>
+ * @license  http://www.netresearch.de Netresearch Copyright
+ * @link     http://www.netresearch.de
  */
 class PagetreeNode extends \TYPO3\CMS\Backend\Tree\Pagetree\PagetreeNode
 {
@@ -30,6 +28,7 @@ class PagetreeNode extends \TYPO3\CMS\Backend\Tree\Pagetree\PagetreeNode
      * Returns the calculated id representation of this node
      *
      * @param string $prefix Defaults to 'p'
+     *
      * @return string
      */
     public function calculateNodeId($prefix = 'p')

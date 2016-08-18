@@ -4,25 +4,23 @@
  *
  * PHP Version 5
  *
- * @category   Netresearch
- * @package    ?
- * @subpackage ?
- * @author     Christian Opitz <christian.opitz@netresearch.de>
- * @license    http://www.netresearch.de Netresearch Copyright
- * @link       http://www.netresearch.de
+ * @category TYPO3
+ * @package  Nr_Pagetree
+ * @author   Christian Opitz <christian.opitz@netresearch.de>
+ * @license  http://www.netresearch.de Netresearch Copyright
+ * @link     http://www.netresearch.de
  */
 
 namespace Netresearch\NrPagetree;
 
 /**
+ * DocumentTemplate class
  *
- *
- * @category   Netresearch
- * @package    ?
- * @subpackage ?
- * @author     Christian Opitz <christian.opitz@netresearch.de>
- * @license    http://www.netresearch.de Netresearch Copyright
- * @link       http://www.netresearch.de
+ * @category TYPO3
+ * @package  Nr_Pagetree
+ * @author   Christian Opitz <christian.opitz@netresearch.de>
+ * @license  http://www.netresearch.de Netresearch Copyright
+ * @link     http://www.netresearch.de
  */
 class DocumentTemplate
 {
