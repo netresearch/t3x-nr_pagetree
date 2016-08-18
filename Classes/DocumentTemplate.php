@@ -31,7 +31,7 @@ class DocumentTemplate
         /* @var \TYPO3\CMS\Core\Page\PageRenderer $pageRenderer */
         extract($params);
 
-        $pageRenderer->addJsFile('/typo3conf/ext/nr_pagetree/Resources/Public/JavaScript/pagetree.js');
+        $pageRenderer->addJsFile(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath('nr_pagetree') . 'Resources/Public/JavaScript/pagetree.js');
     }
 }
 
