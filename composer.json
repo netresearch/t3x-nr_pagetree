@@ -4,6 +4,6 @@
     "description": "Provides extended functionality for the pagetree, such as showing non page records and wiring them to custom pages",
     "homepage": "http://www.netresearch.de/",
     "require": {
-        "typo3/cms": "6.*"
+        "typo3/cms-core": "6.*"
     }
 }
